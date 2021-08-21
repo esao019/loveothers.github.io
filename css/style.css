@@ -587,11 +587,13 @@ img.white{
     
     .small_pics {
     
-        padding-left: 13%;  
+        padding-left: 10%;  
      }  
 
      .navbar{
         left: 250px;
+        left: 64%;
+        width: 38%;
      }
      
      .chat_details h1{
