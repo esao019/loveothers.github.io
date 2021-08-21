@@ -1,0 +1,601 @@
+
+
+*{
+    font-family: "lato" sans-serif;
+    color:rgb(80, 79, 79);
+    
+}
+ 
+.input-group{
+    height: 3.3rem;
+   
+}
+.form-control{
+    border-radius: 3rem;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li a{
+    font-size: 1.2rem;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:rgb(80, 79, 79);
+}
+
+.showcase{
+   background-color: rgba(255, 255, 255, 0.986);
+}
+ .white{
+display: none;
+ }
+
+.first_page{
+    padding-top: 5rem;
+}
+
+.first_details,
+.chat_details{
+    padding-top: 6rem;
+}
+
+.first_details h1,
+.chat_details h1{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.first_details p,
+.chat_details p{
+    font-weight:500;
+    font-size: 1.1rem;
+}
+
+.btn-outline-secondary{
+    background-color: pink;
+    border-radius: 2rem;
+}
+
+.first_page_pics{
+ padding-left: 10%;
+}
+
+.screenshot{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(back.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+.screenshot h2{
+    color: rgb(199, 197, 197);
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.screenshot img{
+ height: 28rem;
+ padding-bottom:3rem;
+ width: 200px;
+
+}
+
+.small{
+    display: none;
+}
+.first{
+    margin-left:10%;
+}
+
+.features h2{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: black;
+}
+
+.features_sub1 h3{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.features_sub1 p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(95, 95, 95);
+}
+
+.chat_wrapper{
+    background-color: rgb(248, 247, 247);
+   
+}
+
+
+.chat1{
+margin-top:3%;
+margin-left: -2%;
+}
+
+.chat2{
+    margin-left: -10%;
+   margin-top: 9.5%
+}
+.chat3{
+   margin-top: 20%;
+   margin-left:2%;
+}
+.chat4{
+    margin-left: -5%;
+   margin-top: 26%
+}
+
+.chat p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(95, 95, 95);
+}
+.comm_pics{
+    padding-left:5%; 
+    background-image: url(curve.svg);
+    background-position: bottom;
+  background-repeat:no-repeat;
+  position: relative;  
+  
+}
+.comm {
+width: 80%;
+
+}
+
+.celeb_details h3 {
+    font-size: 1.2rem;
+}
+.celeb{
+    margin-top:8rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+
+}
+
+.celeb_pics img{
+    padding-top:15rem;
+
+}
+.how_it_works{
+    background-color: rgb(248, 247, 247);
+
+}
+
+.how_it_works h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.steps h3{
+display: block;
+width: 70px;
+height: 70px;
+padding:5%;
+border: 2px solid rgb(243, 125, 144);
+border-radius: 50%;
+margin-left: 2rem;
+}
+
+.how_it_works p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.second{
+    display: block;
+    position: relative;
+    height: 220px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.second img{
+opacity: 0.2;
+width: 350px;
+}
+
+
+.second p{
+font-size: 1rem;
+font-weight: 500;
+position:absolute;
+bottom: 0px;
+left: 0;
+padding: 2px 15px;
+}
+
+.time{
+ justify-content:space-between;
+}
+
+.time p{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.795);
+    font-weight: 500;
+}
+.expired h2{
+    margin-top: -3.1rem;
+    font-weight: 400;
+}
+
+hr.line{
+margin-top: 70px;
+height: 2px;
+font-weight: 400;
+width: 40%;
+}
+
+.social,
+.contact,
+.copy{
+justify-content: space-between;
+padding: 1rem 0;
+}
+
+.social i{
+    font-weight: 900;
+    font-size: 1rem;
+    color: black;
+}
+.copy{
+font-size: 0.7rem;
+}
+
+
+
+@media only screen and (max-width:1200px){
+
+    .screenshot img{
+        width: 165px;
+       
+       }
+      
+}
+
+
+@media only screen and (max-width:1020px){
+  
+ .navbar-toggler-icon {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+      
+}
+
+.navbar-toggler{
+    background-color: #fff;
+    border-color: #fff;
+}
+.navbar{
+    position: absolute;
+   left: 70%;
+    width: 20%;
+}
+
+
+.navbar-nav{
+    position:absolute;
+    width: 200px;
+    left:-20px;
+    top:50px;
+    z-index: 999;
+    background-color: #fff;
+
+}
+
+ 
+.navbar-nav a{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.w-50{
+    width: 100%!important; 
+   }
+
+   .w-25{
+width: 50% !important;
+   }
+
+.chat_details h1{
+    font-size: 2rem;
+}
+.details p{
+  font-size: 1.1rem;  
+}
+
+.images img{
+width: 90%;
+}
+
+
+.small{
+    display: block;
+    position: relative;
+    height: 38rem;
+}
+
+.big{
+    display: none;
+}
+
+.small_pics {
+    position: absolute;
+    width: 99%;
+   padding-left: 35%;
+   
+}
+
+.small_pics img{
+    width: 300px !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+   margin-top: 400px!important ;
+}
+
+    
+}
+
+@media only screen and (max-width:768px){
+  
+
+    
+        h1{
+            text-align: center;
+        }
+        h2{
+           font-size: 2rem !important;
+        }
+    .showcase{
+        background-color: rgba(34, 33, 33, 0.986);
+     }
+    .black{
+        display: none;
+    }
+    .white{
+        display: block;   
+    }
+
+    img.white{
+        width: 200px;
+    }
+        
+
+    .first_one{
+        background-color: rgba(27, 27, 27, 0.788);
+        width: 100%;
+    }
+    .first_page{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+        width:90%;
+      margin-bottom: -3rem;
+      
+    }
+
+  
+    .first_details{
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    top:150px;
+    left:15%;
+    
+    }
+    
+    .first_details h1{
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-align: start;
+    
+    }
+    
+    .first_details p{
+        margin-top: 2rem;
+        color: #fff; 
+        text-align: justify;
+        }
+
+
+.first_page_pics{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+    .first_page_pics img{
+        filter: brightness(30%);
+        width: 350px;
+        }
+        
+        .w-50 {
+         width: 100%!important; 
+        }
+        
+        
+        .screenshot{
+            padding-top: -2rem;
+        }
+        
+        
+        .img-fluid{
+            width: 95%;
+        } 
+        
+        .first{
+            padding: 0;
+        }
+        
+        .chat_details h1{
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        
+        .chat_details p{
+            text-align: center;
+            font-size: 1rem;
+        }
+       .chat_pics{
+           display: flex;
+           align-items:center;
+           justify-content: center;
+       }
+        img.main{
+            width: 300px;
+
+       }   
+
+       .chat1,
+       .chat2,
+       .chat3,
+       .chat4{
+           width: 150px
+       }
+
+       .chat1{
+        margin-top:-27%;
+        margin-left: 15%;
+        }
+        
+        .chat2{
+            margin-left: -3%;
+           margin-top: -12%
+        }
+        .chat3{
+           margin-top: 6%;
+           margin-left:8%;
+        }
+        .chat4{
+            margin-left: -5%;
+           margin-top: 20%
+        }
+
+        .celeb_pics{
+        margin-top: -24rem;
+        }
+        .celeb_details {
+            display:flex;
+        flex-direction: column;
+       align-items: center;
+        }
+    .celeb_details h3 {
+        font-size: 1rem;
+    }
+
+    .elim{
+        display: none;
+    }
+
+    .time p{
+        font-size: 1.1rem;
+    }
+
+    hr.line{
+        width: 80%;
+        } 
+
+        .social,
+        .contact,
+        .copy{
+        padding: 0.3rem 0;
+        }
+        
+        .contact{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 1rem;
+        }
+       
+
+        .small_pics {
+           padding-left: 30%;
+          
+        } 
+    
+
+
+}
+
+
+
+
+@media only screen and (max-width:540px){
+
+/** mobile device**/
+.showcase{
+    background-color: rgba(34, 33, 33, 0.986);
+ }
+.black{
+    display: none;
+}
+
+.white{
+    display: block;   
+}
+
+img.white{
+    width: 200px;
+}
+                                                                                                                                     
+.navbar{
+   left: 250px;
+    width: 30%;
+}
+
+.small_pics {
+    
+    padding-left: 17%;
+    
+ }
+
+
+ .first_details{
+    width: 90%;
+    top:100px;
+    left:10%;
+    
+    }
+    
+    .first_details h1{
+     
+  font-size: 1.6rem;
+
+    }
+    
+    .first_details p{
+       font-size: 0.9rem;
+        }
+
+
+}
+
+
+
+@media only screen and (max-width:480px){
+    
+    .small_pics {
+    
+        padding-left: 13%;  
+     }  
+
+     .navbar{
+        left: 250px;
+     }
+     
+     .chat_details h1{
+         font-size: 2rem;
+     }
+}
+
